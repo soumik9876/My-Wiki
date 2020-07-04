@@ -6,4 +6,4 @@ It is a terminal-based virtual assistant especially made for competitive program
 **Project details**
 
 - [project description](https://github.com/Saurav-Paul/AI-virtual-assistant-python)
-- [TODO](TODO)
+- [TODO](TODO.md)
