@@ -1,6 +1,6 @@
 # My wiki
 
-**Index**
+**Indexing**
 
 - Competitive Programming
 - [Ai virtual assistant](Ai-virtual-assistant/ai-virtual-assistant.md)

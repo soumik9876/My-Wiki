@@ -1,7 +1,10 @@
-# Welcome to my wiki.
+# My wiki
 
-*I am trying to share my knowlege here*
+**Indexing**
 
-
-# [Index](index.md)
+- Competitive Programming
+- [Ai virtual assistant](Ai-virtual-assistant/ai-virtual-assistant.md)
+- Linux
+- [Git](Git/git.md)
+- [Screenreording and video converting with ffmpeg](ScreenRecording/ffmpeg.md)
 
