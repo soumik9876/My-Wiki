@@ -13,9 +13,8 @@
   <summary>Greedy</summary>
 	
   <ul>
-   <li> 
-    <a herf='Lightoj-1016-Brush-II.md'> Lightoj 1016 - Brush (II) </a>
-    
+   <li markdown="1"> 
+	[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
    </li>
   </Ul>
 </details>
