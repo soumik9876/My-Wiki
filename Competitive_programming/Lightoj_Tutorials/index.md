@@ -8,9 +8,10 @@
 
 <details>
   <summary>Greedy</summary>
+	[Lightoj 1016 - Brush (II).md](Lightoj_Tutorials/Lightoj 1016 - Brush (II).md)
   <ul>
    <li> 
-	[Lightoj 1016 - Brush (II).md](Lightoj_Tutorials/Lightoj 1016 - Brush (II).md)
+	
    </li>
   </Ul>
 </details>
