@@ -5,10 +5,11 @@
 
 <h1 align="center">Lightoj Tutorials</h1>
 ---
+[Lightoj 1016 - Brush (II).md](Lightoj_Tutorials/Lightoj 1016 - Brush (II).md)
 
 <details>
   <summary>Greedy</summary>
-	[Lightoj 1016 - Brush (II).md](Lightoj_Tutorials/Lightoj 1016 - Brush (II).md)
+	
   <ul>
    <li> 
 	
