@@ -13,7 +13,7 @@
 
 ### Online judges
 - [Codeforces](Codeforces_tutorials/index.md)
-- Codechef
 - [Lightoj](Lightoj_Tutorials/index.md)
+- Codechef
 
 ---
