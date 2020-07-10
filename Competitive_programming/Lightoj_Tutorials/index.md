@@ -4,13 +4,16 @@
 </p>
 
 <h1 align="center">Lightoj Tutorials</h1>
+
 ---
+
 
 <details>
   <summary>Greedy</summary>
+	
   <ul>
    <li> 
-	tutorial 1
+	[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush\(II\).md)
    </li>
   </Ul>
 </details>
