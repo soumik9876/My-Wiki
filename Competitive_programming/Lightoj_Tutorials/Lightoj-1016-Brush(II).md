@@ -13,3 +13,6 @@ of the brush. Initially the starting point can be the lowest y axis value.
 becomes greater than the width of brush,then we change the starting point to current y axis value and increment our count by 1. 
 
 We get our output after the iteration is completed. Complexity O(n).
+
+[Solution link](https://github.com/soumik9876/Lightoj-solutions/blob/master/Lightoj%201016%20-%20Brush%20(II).cpp)
+
