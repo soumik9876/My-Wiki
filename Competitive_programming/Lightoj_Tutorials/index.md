@@ -7,14 +7,9 @@
 
 ---
 
-[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
+- Greedy
+    
+  - [Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
 
-<details>
-  <summary>Greedy</summary>
-	
-  <ul>
-   <li markdown="1"> 
-	[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
-   </li>
-  </Ul>
-</details>
+
+---
