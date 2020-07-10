@@ -6,4 +6,11 @@
 <h1 align="center">Lightoj Tutorials</h1>
 ---
 
----
+<details>
+  <summary>Greedy</summary>
+  <ul>
+   <li> 
+	tutorial 1
+   </li>
+  </Ul>
+</details>
