@@ -114,7 +114,7 @@ By using the git bare repo, you can have nested git repos in your home directory
 
 #### Entering Git Username and Password in Remote URL
 
-'''bash
+```bash
 
 $ sudo git clone https://username:your_password@github.com/username/repo_name.git
 
@@ -122,4 +122,4 @@ OR
 
 $ sudo git clone https://username:your_password@github.com/username/repo_name.git local_folder
 
-'''
+```
