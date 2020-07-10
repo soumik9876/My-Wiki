@@ -12,7 +12,8 @@
 **Indexing**
 
 - [Competitive Programming](Competitive_programming/index.md)
-- [Algorithms and Data-structures]
+- [Algorithms and Data-structures](Algorithms_Data_structures/index.md)
+- [Algorithms and Data-structures](Algo_data_struct/index.md)
 - [Projects](Projects/projects.md)
 - [Git](Git/git.md)
 - [Screenreording and video converting with ffmpeg](ScreenRecording/ffmpeg.md)
