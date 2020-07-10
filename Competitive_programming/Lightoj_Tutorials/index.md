@@ -7,6 +7,7 @@
 
 ---
 
+[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
 
 <details>
   <summary>Greedy</summary>
