@@ -14,7 +14,8 @@
 	
   <ul>
    <li> 
-	[Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
+    <a herf='Lightoj-1016-Brush-II.md'> Lightoj 1016 - Brush (II) </a>
+    
    </li>
   </Ul>
 </details>
