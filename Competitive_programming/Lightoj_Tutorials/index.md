@@ -12,7 +12,7 @@
 	
   <ul>
    <li> 
-	[Lightoj 1016 - Brush (II)](Lightoj 1016 - Brush (II).md)
+	[Lightoj 1016 - Brush (II)](/Lightoj 1016 - Brush (II).md)
    </li>
   </Ul>
 </details>
