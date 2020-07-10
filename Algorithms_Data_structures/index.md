@@ -1,4 +1,5 @@
 
+
 <p align="center">
 	<img src="logo.png" align="center" >
 </p>
@@ -7,12 +8,5 @@
 <h4 align="center"><i>Informations & tutorials</i> </h4>
 
 ---
-
-<h2 align="center">Comptitive Programming</h2>
-
-### Online judges
-- Codeforces
-- Codechef
-- Lightoj
 
 ---
