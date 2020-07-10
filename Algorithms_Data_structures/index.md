@@ -1,7 +1,6 @@
 
-
 <p align="center">
-	<img src="logo.png" align="center" >
+	<img src="https://github.com/Saurav-Paul/My-Wiki/blob/master/logo.png" align="center" >
 </p>
 
 <h1 align="center">my wiki</h1>
