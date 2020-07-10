@@ -1,4 +1,18 @@
-# ScreenRecording with Ffmpeg
+
+<p align="center">
+	<img src="logo.png" align="center" >
+</p>
+
+<h1 align="center">my wiki</h1>
+<h4 align="center"><i>Informations & tutorials</i> </h4>
+
+
+---
+
+
+
+
+## ScreenRecording with Ffmpeg
 
 *It is really a very nice tool for converting videos. Also it can record screencast.*
 

@@ -1,5 +1,18 @@
-# My Wiki
+
+<p align="center">
+	<img src="logo.png" align="center" >
+</p>
+
+<h1 align="center">my wiki</h1>
+<h4 align="center"><i>Informations & tutorials</i> </h4>
+
+
 ---
+
+
+
+
+
 ## Youtube Video Downloader : youtube-dl
 
 **youtube-dl is a command-line program to download videos from YouTube.com and a few more sites.**

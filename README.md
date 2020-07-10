@@ -11,7 +11,7 @@
 
 **Indexing**
 
-- Competitive Programming
+- [Competitive Programming](Competitive_programming/index.md)
 - Algorithms and Data-structures
 - [Projects](Projects/projects.md)
 - [Git](Git/git.md)

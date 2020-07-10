@@ -1,4 +1,6 @@
 
+
+
 <p align="center">
 	<img src="logo.png" align="center" >
 </p>
@@ -6,12 +8,13 @@
 <h1 align="center">my wiki</h1>
 <h4 align="center"><i>Informations & tutorials</i> </h4>
 
-
 ---
 
+<h2 align="center">Comptitive Programming</h2>
 
+### Online judges
+- Codeforces
+- Codechef
+- Lightoj
 
-
-## Projects
-
-- [Ai-virual-assistant](Ai-virtual-assistant/ai-virtual-assistant.md)
+---
