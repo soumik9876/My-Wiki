@@ -10,7 +10,7 @@
   <summary>Greedy</summary>
   <ul>
    <li> 
-	tutorial 1
+	[Lightoj 1016 - Brush (II).md](Lightoj_Tutorials/Lightoj 1016 - Brush (II).md)
    </li>
   </Ul>
 </details>
