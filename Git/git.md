@@ -108,3 +108,18 @@ push :
 By using the git bare repo, you can have nested git repos in your home directory and there will not be any issue with keeping things straight.   That is the reason for the git bare repo and having an alias ("config").*
 
 
+
+## How to stop asking for username or password everytime ?
+
+
+#### Entering Git Username and Password in Remote URL
+
+```bash
+
+$ sudo git clone https://username:your_password@github.com/username/repo_name.git
+
+OR
+
+$ sudo git clone https://username:your_password@github.com/username/repo_name.git local_folder
+
+```
