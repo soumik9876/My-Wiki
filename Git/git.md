@@ -123,3 +123,45 @@ OR
 $ sudo git clone https://username:your_password@github.com/username/repo_name.git local_folder
 
 ```
+drawback : The main drawback of this method that your username and password will be saved in the command in the Shell history file and .git/config file.
+
+### Saving Remote Git Repository Username and Password on Disk
+```bash
+$ git config credential.helper store				
+
+OR
+
+$ git config --global credential.helper store	
+```
+
+**From now on, Git will write credentials to the ~/.git-credentials file for each URL context, when accessed for the first time.**
+
+To view the content,
+
+```bash
+$ cat  ~/.git-credentials
+
+```
+
+### Caching Remote Git Repository Username and Password in Memory
+
+*Last but not least, you can also use the Git credentials helper to temporarily save your credentials in memory for some time. To do that, issue the following command.*
+
+```bash
+$ git config credential.helper cache
+OR
+$ git config --global credential.helper cache
+
+```
+
+*After running the above command, when you try to access a remote private repository for the first time, Git will ask for your username and password and save it in memory for some time.*
+
+*The default caching time is 900 seconds (or 15 minutes), after which Git will prompt you to enter your username and password again. You can change it as follows (1800 seconds = 30 minutes or 3600 seconds = 1hour).*
+
+
+
+```bash
+$ git config --global credential.helper 'cache --timeout=18000'
+OR
+$ git config --global credential.helper 'cache --timeout=36000'
+```
