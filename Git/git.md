@@ -15,7 +15,7 @@
  
 _A list of my commonly used Git commands_
 
---
+---
 
 ### Getting & Creating Projects
 
@@ -104,7 +104,6 @@ push :
 
 
 *WHAT'S THE REASON FOR THE GIT BARE REPO?
-
 By using the git bare repo, you can have nested git repos in your home directory and there will not be any issue with keeping things straight.   That is the reason for the git bare repo and having an alias ("config").*
 
 
@@ -164,4 +163,91 @@ $ git config --global credential.helper cache
 $ git config --global credential.helper 'cache --timeout=18000'
 OR
 $ git config --global credential.helper 'cache --timeout=36000'
+```
+
+
+### How to download git repository
+
+Download full repository,
+
+> git clone "url"
+
+
+Particular part Download ,
+
+Goto to  [DownGit](https://downgit.github.io/#/home) .
+
+OR
+
+
+
+If you have svn, you can use svn export to do this:
+
+svn export https://github.com/foobar/Test.git/trunk/foo
+
+Notice the URL format:
+
+- The base URL is https://github.com/
+- /trunk appended at the end
+
+Before you run svn export, it's good to first verify the content of the directory with:
+
+svn ls https://github.com/foobar/Test.git/trunk/foo
+
+
+OR
+
+
+
+
+Whoever is working on specific folder he needs to clone that particular folder itself, to do so please follow below steps by using sparse checkout.
+
+- Create a directory.
+
+- Initialize a Git repository. (git init)
+
+- Enable Sparse Checkouts. (git config core.sparsecheckout true)
+
+- Tell Git which directories you want (echo 2015/brand/May( refer to folder you want to work on) >> .git/info/sparse-checkout)
+
+- Add the remote (git remote add -f origin https://jafartke.com/mkt-imdev/DVM.git)
+
+- Fetch the files (git pull origin master )
+
+	
+OR
+
+
+Script for donwloading,
+
+```bash
+#! /bin/bash
+
+#set -x
+
+if [ $# -ne 1 ]; then
+    echo $0: usage: git-download.sh gitHubAPIURLToDownloadFrom
+    echo $0: The API URL could be for example: https://api.github.com/repos/ojbc/main/contents/shared/ojb-certs
+    exit 1
+fi
+
+DIRS=$(curl -s $1 | grep html_url | grep -v gitignore | sed "s/.*\(https.*\)\".*/\1/g")
+
+for dir in $DIRS
+do
+	plain_dir=$(basename $dir)
+	mkdir $plain_dir
+	cd $plain_dir
+	dir=$(echo $dir | sed "s/github\.com\//api.github.com\/repos\//g" | sed "s/tree/contents/g" | sed "s/master//g")
+	FILES=$(curl -s $dir | grep download_url | sed "s/.*\(https.*\)\".*/\1/g")
+	for f in $FILES
+	do
+		plainfile=$(basename $f)
+		curl -s $f -o $plainfile
+	done
+	cd ..
+done
+
+
+
 ```
