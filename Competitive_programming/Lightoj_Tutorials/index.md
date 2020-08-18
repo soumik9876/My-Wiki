@@ -10,6 +10,6 @@
 - Greedy
     
   - [Lightoj 1016 - Brush (II)](Lightoj-1016-Brush-II.md)
-  - [Lightoj 1271 - Better Tour](Lightoj 1271 - Better Tour Tutorial.md)
+  - [Lightoj 1271 - Better Tour](Lightoj-1271-Better-Tour-Tutorial.md)
 
 ---
